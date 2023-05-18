@@ -1,0 +1,76 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #1d2630;
+    color: white;
+  }
+.container {
+    border: 1px solid #fff;
+}
+
+  .header, h2 {
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+  }
+
+  label {
+    font-size: 18px;
+    font-family: "Roboto", sans-serif;
+  }
+  
+  form {
+    max-width: 600px;
+    padding-top: 15px;
+    margin: 0 auto;
+  }
+
+  input, select {
+    display: block;
+    margin-bottom: 15px;
+    width: 100%;
+    padding: 15px;
+    border-radius: 10px;
+  }
+
+  button {
+    display: block;
+    width: 30%;
+    padding: 15px;
+    margin-bottom: 15px;
+    background-color: #0fac77e0;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+
+  #userTable {
+    width: 100%;
+    max-width: 1000px;
+    border-collapse: collapse;
+    text-align: center;
+    margin-top: 10px;
+    border-bottom: 2px solid #fff;
+    margin: 0 auto;
+  }
+
+  #userTable thead th {
+    background-color: #070606;
+    margin: 0 auto;
+    padding: 10px;
+  }
+
+  button .delete {
+    background-color: red;
+  }
+   .edit {
+    background-color: yellow;
+  }
+  

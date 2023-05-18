@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+      <script src="script.js" defer></script>
+</head>
+<body>
+
+
+<div class="container">
+    <h1 class="header"> <strong> User Management System </strong> </h1>
+    <form action="" id="userForm" class="" autocomplete="off">
+        <label for="name">Name:</label>
+        <input type="text" id="nameInput" placeholder="Enter Name" required>
+        <label for="ID Number">ID Number: </label>
+        <input type="text" id="idInput" placeholder="Your ID Number" required>
+        <label for="country">Country:</label>
+        <select id="countrySelect" required>
+          <option value="">Select Country</option>
+          <option value="USA">USA</option>
+          <option value="Canada">Canada</option>
+          <option value="UK">UK</option>
+          <option value="Australia">Australia</option>
+          <!-- Add more country options as needed -->
+        </select>
+        <label for="languages">Languages: </label>
+        <input type="text" id="languagesInput" placeholder="Languages Spoken" required>
+    <button type="submit">Create User</button>
+      </form>
+</div>
+
+  
+  <h2>User Records</h2>
+  <table id="userTable">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>ID Number</th>
+        <th>Country</th>
+        <th>Languages Spoken</th>
+        <th>Actions</th>
+      </tr>
+    </thead>
+    <tbody id="userTableBody"></tbody>
+  </table>
+    
+</body>
+</html>
+
+
