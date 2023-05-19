@@ -68,7 +68,7 @@ body {
   }
 
   #userTable thead th {
-    background-color: var(--primary);
+    background-color: var(--secondary);
     margin: 0 auto;
     padding: 10px;
   }
