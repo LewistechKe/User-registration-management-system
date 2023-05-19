@@ -8,7 +8,7 @@
 body {
     font-family: Arial, sans-serif;
     margin: 20px;
-    background-color: #1d2630;
+    background-color: #021327;
     color: white;
   }
 
@@ -45,7 +45,7 @@ body {
     width: 20%;
     padding: 15px;
     margin-bottom: 15px;
-    background-color: #0fac77e0;
+    background-color: #34cc99e0;
     color: white;
     border: none;
     border-radius: 10px;
@@ -63,7 +63,7 @@ body {
   }
 
   #userTable thead th {
-    background-color: #0c0b0b;
+    background-color: #4e70df;
     margin: 0 auto;
     padding: 10px;
   }
@@ -72,7 +72,9 @@ body {
 .delete-button {
     background-color: #ff0000;
     color: #ffffff;
-    padding: 15px;
+    padding: 10px;
+    margin-top: 10px;
+    width: fit-content;
     border: none;
     border-radius: 3px;
     cursor: pointer;

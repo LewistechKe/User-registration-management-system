@@ -63,6 +63,7 @@ function displayUserRecords() {
     });
     actionsCell.appendChild(deleteButton);
     */
+    
     const actionsCell = document.createElement('td');
     const deleteButton = document.createElement('button');
     deleteButton.textContent = 'Delete';
@@ -71,7 +72,7 @@ function displayUserRecords() {
       deleteUser(user);
     });
     actionsCell.appendChild(deleteButton);
-    
+        
     
 
     // Append cells to the row
@@ -96,9 +97,10 @@ function deleteUser(user) {
 }
 
 
+
+
 // Event listener for form submission
 document.getElementById('userForm').addEventListener('submit', createUser);
 
 // Display initial user records
 displayUserRecords();
- 
