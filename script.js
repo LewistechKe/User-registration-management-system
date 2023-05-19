@@ -54,10 +54,19 @@ function displayUserRecords() {
 
     const languagesCell = document.createElement('td');
     languagesCell.textContent = user.languages;
-
+/*
     const actionsCell = document.createElement('td');
     const deleteButton = document.createElement('button');
     deleteButton.textContent = 'Delete';
+    deleteButton.addEventListener('click', function() {
+      deleteUser(user);
+    });
+    actionsCell.appendChild(deleteButton);
+    */
+    const actionsCell = document.createElement('td');
+    const deleteButton = document.createElement('button');
+    deleteButton.textContent = 'Delete';
+    deleteButton.classList.add('delete-button');
     deleteButton.addEventListener('click', function() {
       deleteUser(user);
     });

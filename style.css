@@ -11,13 +11,14 @@ body {
     background-color: #1d2630;
     color: white;
   }
-.container {
-    border: 1px solid #fff;
-}
 
   .header, h2 {
     text-align: center;
     font-family: "Roboto", sans-serif;
+  }
+
+  h2 {
+    padding-bottom: 10px;
   }
 
   label {
@@ -26,7 +27,7 @@ body {
   }
   
   form {
-    max-width: 600px;
+    max-width: 800px;
     padding-top: 15px;
     margin: 0 auto;
   }
@@ -41,7 +42,7 @@ body {
 
   button {
     display: block;
-    width: 30%;
+    width: 20%;
     padding: 15px;
     margin-bottom: 15px;
     background-color: #0fac77e0;
@@ -57,20 +58,28 @@ body {
     border-collapse: collapse;
     text-align: center;
     margin-top: 10px;
-    border-bottom: 2px solid #fff;
+    border-bottom: 2px solid #ffffffd5;
     margin: 0 auto;
   }
 
   #userTable thead th {
-    background-color: #070606;
+    background-color: #0c0b0b;
     margin: 0 auto;
     padding: 10px;
   }
 
-  button .delete {
-    background-color: red;
+ /* Example CSS styles for the delete button */
+.delete-button {
+    background-color: #ff0000;
+    color: #ffffff;
+    padding: 15px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
   }
-   .edit {
-    background-color: yellow;
+  
+  .delete-button:hover {
+    background-color: #cc0000;
   }
+  
   
