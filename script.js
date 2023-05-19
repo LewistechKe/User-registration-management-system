@@ -96,9 +96,6 @@ function deleteUser(user) {
   }
 }
 
-
-
-
 // Event listener for form submission
 document.getElementById('userForm').addEventListener('submit', createUser);
 

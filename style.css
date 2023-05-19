@@ -4,11 +4,16 @@
     box-sizing: border-box;
 }
 
+:root {
+    --primary: hsl(212, 90%, 8%);
+    --secondary: hsl(226, 69%, 59%);
+    --accent: hsla(160, 60%, 50%, 0.878);
+}
 
 body {
     font-family: Arial, sans-serif;
     margin: 20px;
-    background-color: #021327;
+    background-color: var(--primary);
     color: white;
   }
 
@@ -45,7 +50,7 @@ body {
     width: 20%;
     padding: 15px;
     margin-bottom: 15px;
-    background-color: #34cc99e0;
+    background-color: var(--accent);
     color: white;
     border: none;
     border-radius: 10px;
@@ -63,7 +68,7 @@ body {
   }
 
   #userTable thead th {
-    background-color: #4e70df;
+    background-color: var(--primary);
     margin: 0 auto;
     padding: 10px;
   }
